@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/segment7" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="t"> A simple calculator</div>
+	<div class="t2">By Suman Das</div>
+
+   
+   	 <center><input type="text" class="display" id="display"></center>
+    	
+    </div>
+   <table  class="tb" id="val">
+   	  <tr>
+   	  	<td><button value="1" id="num" onclick="dis('1')">1</button></td>
+   	  	<td><button value="2" id="num" onclick="dis('2')">2</button></td>
+   	  	<td><button value="3" id="num" onclick="dis('3')">3</button></td>
+   	  	<td><button value="+" id="num" onclick="dis('+')">+</button></td>
+   	  </tr>
+   	  <tr>
+   	  	<td><button value="4" id="num" onclick="dis('4')">4</button></td>
+   	  	<td><button value="5" id="num" onclick="dis('5')">5</button></td>
+   	  	<td><button value="6" id="num" onclick="dis('6')">6</button></td>
+   	  	<td><button value="-" id="num" onclick="dis('-')">-</button></td>
+   	  </tr>
+   	  <tr>
+   	  	<td><button value="7" id="num" onclick="dis('7')">7</button></td>
+   	  	<td><button value="8" id="num" onclick="dis('8')">8</button></td>
+   	  	<td><button value="9" id="num" onclick="dis('9')" >9</button></td>
+   	  	<td><button value="*" id="num" onclick="dis('*')">*</button></td>
+   	  </tr>
+   	  <tr>
+   	  	<td><button value="=" id="res" onclick="result()">=</button></td>
+   	  	<td><button value="0" id="num" onclick="dis('0')">0</button></td>
+   	  	<td><button value="AC" id="opt" onclick="clr()">AC</button></td>
+   	  	<td><button value="/" id="opt" onclick="dis('/')">/</button></td>
+   	  </tr>
+   </table>
+   <script type="text/javascript" src="app.js" ></script>
+
+</body>
+</html>

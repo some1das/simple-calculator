@@ -1,0 +1,104 @@
+*{
+	background-color: lightblue;
+}
+.t{
+	font-size: 30px;
+	color: green;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: 'Kalam', cursive;
+
+}
+.t2{
+	letter-spacing: 4px;
+	word-spacing: 5px;
+	text-align: center;
+}
+.display{
+	background-color: black;
+	height: 100px;
+	margin: auto;
+	width: 400px;
+	position: relative;
+	top: 60px;
+	font-size: 30px;
+	color: white;
+	padding: 5px;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	
+}
+.tb{
+	height: 200px;
+	width: 400px;
+	margin: auto;
+	position: relative;
+	top: 130px;
+	font-size: 30px;
+
+}
+button{
+	height: 50px;
+	width: 90px;
+	font-size: 30px;
+	background-color: lightgreen;
+	border-radius: 30px;
+	padding: 0;
+	font-family: 'Orbitron', sans-serif;
+}
+@media screen and (max-width: 500px)
+{
+	*{
+		width: 100%;
+		background-color: lightblue;
+
+	}
+	.t{
+	font-size: 30px;
+	color: green;
+	letter-spacing: 3px;
+	text-align: center;
+	font-family: 'Kalam', cursive;
+
+    }
+    .t2{
+	letter-spacing: 4px;
+	word-spacing: 5px;
+	text-align: center;
+    }
+    .display{
+	background-color: black;
+	height: 80px;
+	margin: auto;
+	width: 70%;
+	position: relative;
+	top: 40px;
+	font-size: 20px;
+	color: white;
+	padding: 5px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	
+    }
+    .tb{
+	height: 218px;
+	width: 70%;
+	margin: auto;
+	position: relative;
+	top: 100px;
+	font-size: 24px;
+
+    }
+    button{
+	height: 40px;
+	width: 80px;
+	font-size: 20px;
+	background-color: lightgreen;
+	border-radius: 25px;
+	padding: 0;
+	font-family: 'Orbitron', sans-serif;
+    }
+
+}
